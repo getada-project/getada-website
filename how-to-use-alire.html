@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preload" href="assets/site.css" as="style">
+<link rel="stylesheet" href="assets/site.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https:///how-to-use-alire.html" />
+<meta name="author" content="AJ">
+<meta name="description" content=" An unofficial installer for Alire ">
+<title>How to use Alire - GetAda</title>
+</head>
+<body>
+	<header id="site_header">
+		<img src="assets/ada.svg" width="200" height="200" />
+		<h1>GetAda</h1>
+		<p>This site provides a simple way to install Ada's toolchain <a href="https://alire.ada.dev/docs/#introduction">Alire</a> using <a href="https://github.com/aj-ianozi/getada">GetAda</a>.</p>
+	</header>
+	<main id="main_content">
+		<article>
+			<section>
+				<h2>How to use alire?</h2>
+<p>Check out <a href="https://getada.dev">GetAda.dev</a> on how to get alire.</p>
+<h3>Create a new ada project</h3>
+<pre><code class="language-sh">alr init --bin new_project
+</code></pre>
+<p>This will create a new ada project in the folder &quot;new_project&quot;.</p>
+<h3>Add a dependency</h3>
+<pre><code class="language-sh"># for example, json support
+alr with json
+</code></pre>
+<p>Check out <a href="https://alire.ada.dev/crates.html">all of the available alire crates</a>.</p>
+<h3>Edit a project</h3>
+<pre><code class="language-sh">alr edit
+</code></pre>
+<p>Don't use <a href="https://github.com/AdaCore/gnatstudio">GNAT Studio</a>? Check out the <a href="https://github.com/AdaCore/ada_language_server">Ada Language Server</a> and open the project folder with emacs, vim, vscode, or your editor of choice.</p>
+<h4>Set alr edit to your editor of choice</h4>
+<pre><code class="language-sh"># For example, vscode
+alr settings --global --set editor.cmd &quot;code .&quot;
+</code></pre>
+<h3>Select your toolchain</h3>
+<pre><code class="language-sh">alr toolchain --select
+</code></pre>
+<p>The default is gnat-native, which is the compiler for whatever system you're running, but you can even cross-compile.</p>
+<h3>Compile your project</h3>
+<pre><code class="language-sh">alr build
+</code></pre>
+<p>Get started with <a href="https://https://ada-lang.io/docs/learn/tutorial/hello-world#starting-a-new-project">Ada-lang.io's tutorial</a>.</p>
+
+			</section>
+		</article>
+	</main>
+	<footer id="site_footer">
+		<p>Copyright &copy; 2024 GetAda.Dev</p>
+		<p>Generated with <a href="https://yass.website/">Yet Another Static Website Generator</a>.
+	</footer>
+</body>
+</html>
