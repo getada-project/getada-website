@@ -1,28 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https:///how-to-use-alire.html</loc>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
+ </url>
+ <url>
   <loc>https:///index.html</loc>
-  <lastmod>2024-04-23T13:39:20Z</lastmod>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
  </url>
  <url>
   <loc>https:///dist/index.html</loc>
-  <lastmod>2024-04-23T13:39:20Z</lastmod>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
+ </url>
+ <url>
+  <loc>https:///dist/aarch64-unknown-linux-gnu/index.html</loc>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
  </url>
  <url>
   <loc>https:///dist/x86_64-apple-darwin/index.html</loc>
-  <lastmod>2024-04-23T13:39:20Z</lastmod>
- </url>
- <url>
-  <loc>https:///dist/aarch64-apple-darwin/index.html</loc>
-  <lastmod>2024-04-23T13:39:20Z</lastmod>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
  </url>
  <url>
   <loc>https:///dist/x86_64-unknown-linux-gnu/index.html</loc>
-  <lastmod>2024-04-23T13:39:20Z</lastmod>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
  </url>
  <url>
-  <loc>https:///how-to-use-alire.html</loc>
-  <lastmod>2024-04-23T13:39:20Z</lastmod>
+  <loc>https:///dist/aarch64-apple-darwin/index.html</loc>
+  <lastmod>2025-04-26T22:23:11Z</lastmod>
  </url>
 </urlset>
 
